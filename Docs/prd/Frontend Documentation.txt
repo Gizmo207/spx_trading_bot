@@ -1,0 +1,114 @@
+Frontend Documentation
+
+UI Framework
+
+Chosen Framework: Flutter
+
+Advantages:
+
+Cross-platform capabilities for iOS, Android, and web.
+
+Faster development with hot reload.
+
+Consistent and sleek UI across platforms.
+
+Robust ecosystem with pre-built widgets.
+
+Alternative Consideration:
+
+React with Material-UI for a web-first approach, but Flutter better aligns with cross-platform goals.
+
+UI Library
+
+Chosen Library: Material Design
+
+Benefits:
+
+Clean, modern design that is intuitive and familiar for users.
+
+Fully supported by Flutter with robust widgets for faster development.
+
+iOS Styling Option: Cupertino widgets can be used for native Apple device styling.
+
+Navigation
+
+Recommended Navigation Style:
+
+Primary Navigation:
+
+Bottom Navigation Bar with 3-4 main tabs:
+
+Home/Signals: Displays live market analysis and trading signals.
+
+Performance: Shows historical backtesting and signal performance.
+
+Account: For user settings and customization.
+
+More/Help: Educational resources, FAQs, and support.
+
+Secondary Navigation:
+
+Use Tab Navigation within each screen for subcategories (e.g., "Current Day" vs. "Historical" in the Performance tab).
+
+Styling
+
+Base Style:
+
+Standard Material Design for consistency and simplicity.
+
+Custom Branding:
+
+Color Palette:
+
+Blue: Trust and reliability.
+
+Green: Growth and profitability.
+
+Typography:
+
+Custom fonts to reflect unique brand identity.
+
+Dark Mode:
+
+Include dark mode to enhance user preference and accessibility.
+
+Forms
+
+Login/Sign-Up Forms:
+
+Fields:
+
+Name (optional for sign-up).
+
+Email.
+
+Password.
+
+Confirm Password.
+
+Layout:
+
+Single scrollable screen with vertically stacked fields.
+
+Include "Forgot Password?" link.
+
+Other Forms:
+
+Customization Settings:
+
+Slider for confidence thresholds (e.g., 50% to 90%).
+
+Toggle switches for alerts and notifications.
+
+API Integration Settings:
+
+Fields to connect brokerage accounts (e.g., API key, secret key).
+
+Additional Notes
+
+FlutterFlow Integration:
+
+Provides full templates for authentication (e.g., login, sign-up, password reset).
+
+Simplifies Firebase integration for backend services.
+

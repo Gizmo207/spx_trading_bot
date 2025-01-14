@@ -1,0 +1,108 @@
+Backend Documentation
+
+Backend Framework
+
+Chosen Framework: Python with FastAPI
+
+Why:
+
+Excellent for financial data analysis and numerical computation.
+
+Fast and easy development of RESTful APIs.
+
+Built-in support for asynchronous operations, ideal for handling real-time market data.
+
+Alternative Consideration:
+
+Node.js with Express.js: Lightweight, event-driven approach for real-time trading.
+
+Pros:
+
+Rich ecosystem.
+
+Strong support for WebSocket integrations.
+
+Database
+
+Chosen Database: Firebase Firestore (NoSQL)
+
+Why:
+
+Flexibility and scalability for handling trading signals and user data.
+
+Seamless integration with Firebase Authentication.
+
+Optimized for real-time updates and data streams.
+
+Alternative Consideration:
+
+PostgreSQL (Relational):
+
+Better suited for structured data and advanced querying.
+
+Useful for backtesting and storing structured financial metrics.
+
+Authentication
+
+Chosen Method: Firebase Authentication
+
+Benefits:
+
+Simplifies integration with Flutter.
+
+Provides pre-built UI flows for login/sign-up.
+
+Offers secure user management for multiple methods (email/password, Google, Apple, etc.).
+
+Alternative Consideration:
+
+OAuth 2.0:
+
+Ideal for integration with broker APIs (e.g., Alpaca, Interactive Brokers).
+
+Ensures seamless account linking and secure trade execution.
+
+API Design
+
+Chosen Approach: RESTful APIs
+
+Benefits:
+
+Simple and reliable for predefined data exchanges.
+
+Easy to build, maintain, and debug.
+
+Alternative Consideration:
+
+GraphQL:
+
+Provides flexibility for querying specific financial data subsets.
+
+Example: Allow traders to pull only relevant indicators or historical data points on demand.
+
+Third-Party Integrations
+
+Recommended Broker APIs:
+
+Alpaca:
+
+Best for free, commission-less trading with real-time market data.
+
+Interactive Brokers:
+
+Provides advanced options trading and access to a wide range of assets.
+
+Other Financial APIs:
+
+Yahoo Finance API:
+
+Provides historical data.
+
+Polygon.io:
+
+Real-time market data and news.
+
+Alpha Vantage:
+
+Affordable and robust financial data API.
+

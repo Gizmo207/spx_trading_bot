@@ -1,0 +1,147 @@
+Third-Party Libraries Documentation
+
+Financial Data APIs
+
+Alpaca:
+
+Description: Commission-free trading API for SPX options trading.
+
+Use Case: Seamless trade execution and market data retrieval.
+
+Polygon.io:
+
+Description: Real-time and historical market data API.
+
+Use Case: Provides live data and historical charts for trading signals.
+
+Alpha Vantage:
+
+Description: Affordable API for financial indicators and time series.
+
+Use Case: Backtesting and providing indicators for trading strategies.
+
+Backend Development
+
+FastAPI:
+
+Description: High-performance Python framework for APIs.
+
+Use Case: Building RESTful APIs for trading signals and user data.
+
+SQLAlchemy:
+
+Description: Python SQL toolkit and ORM.
+
+Use Case: Database interaction if PostgreSQL is used as an alternative to Firebase Firestore.
+
+PyJWT:
+
+Description: Python library for handling JSON Web Tokens.
+
+Use Case: Firebase ID token validation and OAuth2 integrations.
+
+pytest:
+
+Description: Python testing framework for backend testing.
+
+Use Case: Automated unit and integration testing for backend functions.
+
+Frontend Development
+
+Flutter:
+
+Description: Cross-platform framework for mobile and web development.
+
+Use Case: Building a consistent and efficient UI across platforms.
+
+Material Design Library:
+
+Description: Pre-built Material Design widgets for Flutter.
+
+Use Case: Quick and modern UI design for Android and web platforms.
+
+Cupertino Widgets:
+
+Description: Native-styled widgets for iOS.
+
+Use Case: Ensuring an Apple-native user experience.
+
+Flutter Test:
+
+Description: Flutter testing framework for UI and functionality testing.
+
+Use Case: Ensures frontend components behave as expected.
+
+State Management
+
+FlutterFlow Built-in Tools:
+
+Description: Integrated state management solutions.
+
+Use Case: Managing local and global state for straightforward data flows.
+
+Riverpod:
+
+Description: Comprehensive state management library for Flutter.
+
+Use Case: Handling more complex state scenarios if needed.
+
+shared_preferences:
+
+Description: Key-value storage for local data.
+
+Use Case: Storing lightweight session data like themes or user preferences.
+
+Real-Time Communication
+
+Firebase Realtime Database:
+
+Description: Real-time database service.
+
+Use Case: Additional synchronization for live trading data.
+
+Socket.IO:
+
+Description: Library for WebSocket-based communication.
+
+Use Case: Real-time event updates for trading signals or trade statuses.
+
+Firestore Listeners:
+
+Description: Real-time update mechanism built into Firebase Firestore.
+
+Use Case: Seamless synchronization for signals and global state changes.
+
+Testing
+
+Pytest:
+
+Description: Python testing framework.
+
+Use Case: Unit testing for backend API functions.
+
+Flutter Test:
+
+Description: Testing framework for Flutter applications.
+
+Use Case: Unit and integration testing for the frontend.
+
+Postman/Newman:
+
+Description: API testing and automation tools.
+
+Use Case: Verifying API endpoints and automating integration tests.
+
+Analytics & Monitoring
+
+Google Analytics:
+
+Description: Web and app analytics tool.
+
+Use Case: Tracking user behavior and app usage patterns.
+
+Sentry:
+
+Description: Error tracking and monitoring tool.
+
+Use Case: Capturing and debugging app crashes or API issues.
